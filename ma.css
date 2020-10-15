@@ -1,0 +1,113 @@
+
+/* Home Page */
+.home-page .carousel-item img {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.carousel-control-prev i {
+    color: black;
+}
+
+.carousel-control-next i {
+    color: black;
+}
+
+#logo {
+    width: 50%;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    list-style-type: none;
+}
+
+/* About Page */
+#about-text-col {
+    height: 100vh;
+}
+
+/* My Story Page */
+#story-image {
+    width: 75%;
+    margin: 50px 0;
+}
+
+.story-text {
+    font-size: 75%;
+}
+
+#story-text-2 {
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Products Page */
+.card{
+    margin-top: 50px;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60%;
+}
+
+/* Products Show Pages */
+.product-show-image img {
+    width: 100%;
+}
+
+.last-image {
+    margin-bottom: 100px;
+}
+
+.product-show-image img:hover {
+    cursor: zoom-in;
+}
+
+.products-show-pages .carousel-item img {
+    width: 100%;
+}
+
+/* Tools Of The Craft Page */
+.tools-images {
+    width: 100%;
+}
+
+.tools-images:hover {
+    cursor: zoom-in;
+}
+
+#tools-text {
+    text-align: left;
+}
+
+#tools-top-row {
+    height: 90vh;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card-deck img {
+    transition: opacity ease-in-out 250ms;
+}
+
+.card-deck img:hover {
+    opacity: 0.7;
+}
+
+#back-to-portfolio-text {
+    color: #9932CC;
+    position: fixed;
+    left: 5%;
+    top: 5%;
+    z-index: 10;
+    font-family: 'Libre Baskerville', serif;
+}
